@@ -21,7 +21,7 @@ jobs:
 
       - name: Run tests
         run: |
-          npm test > test-result.txt
+          npm run check > test-result.txt
 
       - name: Upload test results
         uses: actions/upload-artifact@v4
